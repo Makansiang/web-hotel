@@ -1,0 +1,178 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Titillium Web", sans-serif;
+  overflow: scroll;
+}
+
+.navbar ul li a:hover {
+  border-bottom: 3px solid rgb(81, 255, 159);
+  animation-play-state: running;
+}
+.navbar-brand:hover {
+  border-bottom: 3px solid rgb(255, 0, 0);
+}
+.profile {
+  background-image: url("img/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 20%;
+  border-bottom: 5px solid rgb(255, 255, 255);
+}
+.tls {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+#tentang {
+  background-image: url("img/hotel.png");
+  background-position: top;
+  width: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding-bottom: 10%;
+  padding-top: 10%;
+  background-color: rgb(80, 156, 255);
+  position: center;
+}
+.c {
+  justify-content: center;
+  padding-top: solid #000;
+  color: rgb(255, 255, 255);
+  text-shadow: 0px 0px 10px #000, 0px 0px 5px #000000;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+.t {
+  border-bottom: 5px solid rgb(0, 255, 157);
+  padding-top: 25px;
+  font-size: 50px;
+  text-shadow: 0px 0px 10px #000, 0px 0px 5px #000000;
+}
+
+h1 {
+  font-size: 100px;
+  border-top: 7px solid rgb(0, 255, 157);
+  border-bottom: 7px solid rgb(0, 255, 157);
+  text-shadow: 0px 0px 10px #000, 0px 0px 5px #000000;
+}
+h5 {
+  font-size: 30px;
+  text-shadow: 0px 0px 10px #000, 0px 0px 5px #000000;
+}
+#fasilitas {
+  background-color: rgb(80, 156, 255);
+  width: 50%;
+  background-position: right 100px;
+  box-shadow: 0px 0px 5px #000, 0px 0px 5px #000000;
+}
+.f {
+  font-size: 50px;
+  text-align: center;
+  margin-right: 20%;
+  padding-bottom: 20px;
+  color: #fff;
+  text-shadow: 0px 0px 5px #000, 0px 0px 5px #000000;
+}
+.k {
+  font-size: 50px;
+  text-align: center;
+  margin-right: 5%;
+  padding-bottom: 30px;
+  color: rgb(0, 255, 157);
+  text-shadow: 0px 0px 5px rgb(0, 0, 0), 0px 0px 5px #8d8d8d;
+}
+button.kembali {
+  box-shadow: 0px 0px 5px rgb(0, 0, 0), 0px 0px 5px rgb(133, 133, 133);
+  width: max-content;
+  padding: 10px;
+  margin: 10px;
+  background-color: rgb(80, 156, 255);
+  color: #fff;
+}
+button.kembali :hover {
+  transition-duration: 0.2s;
+  width: max-content;
+  padding: 5px;
+  margin: 5px;
+  color: #fff;
+}
+
+.carousel-inner {
+  width: 70%;
+  margin-left: 5%;
+  padding-bottom: 5%;
+}
+strong {
+  font-size: 25px;
+  color: #fff;
+}
+.sa {
+  background: rgba(000, 000, 000, 0.4);
+  width: max-content;
+}
+
+.p {
+  background: rgba(000, 000, 000, 0.4);
+  color: rgb(0, 0, 0);
+  font-weight: 600;
+}
+.pesan {
+  background-image: url("img/kamar.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 18%;
+  width: 100%;
+  font-weight: bold;
+  color: rgb(80, 156, 255);
+}
+.ps {
+  background: rgba(000, 000, 000, 0.4);
+}
+.r {
+  padding-top: 6rem;
+}
+.as {
+  margin-left: 45%;
+  width: 900px;
+  z-index: 1px;
+}
+
+.kembali a {
+  text-decoration: none;
+  color: #fff;
+}
+.kembali a :hover {
+  color: red;
+}
+.form-label {
+  font-size: 15px;
+  color: rgb(80, 156, 255);
+  font-weight: bold;
+  padding: 15px;
+}
+.card {
+  box-shadow: 0px 0px 8px #000, 0px 0px 10px #555555;
+  border-bottom: 10px solid rgb(0, 255, 157);
+}
+.kn {
+  text-align: center;
+  padding-top: 50px;
+}
+.v {
+  margin-left: 10%;
+  padding-top: 50px;
+  width: 70%;
+}
+.fl {
+  box-shadow: 0px 0px 3px #000, 0px 0px 6px #555555;
+}
+.b {
+  padding-top: 30px;
+}
+.g {
+  border-bottom: 5px solid rgb(0, 255, 157);
+}
